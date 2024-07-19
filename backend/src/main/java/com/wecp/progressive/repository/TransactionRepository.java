@@ -1,18 +1,13 @@
 package com.wecp.progressive.repository;
 
-import javax.transaction.Transaction;
-
+import com.wecp.progressive.entity.Transactions;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.wecp.progressive.entity.Transactions;
+import java.util.List;
 
 @Repository
-public interface TransactionRepository extends JpaRepository<Transactions,Integer>{
+public interface TransactionRepository extends JpaRepository<Transactions, Integer> {
 
-    @Query("select t from Transcations t where t.customers.customerId = :customerId")
-    public Transactions getAllTransactionsByCustomerId(Integer customerId);
-
-   // public Transactions save(Transactions transactions);
+    List<Transactions> findByAccountsAccountId(int accountId);
 }
