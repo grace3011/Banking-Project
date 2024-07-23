@@ -10,7 +10,7 @@ export class TransactionTS {
         this.accountId = accountId;
         this.amount = amount;
         this.transactionDate = transactionDate;
-    }AC
+    }
 
     displayInfo() {
         console.log(`Transaction ID: ${this.transactionId}`);
