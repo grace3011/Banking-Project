@@ -1,10 +1,5 @@
 package com.wecp.progressive.repository;
 
-<<<<<<< HEAD
-
-public interface CustomerRepository  {
-
-=======
 import com.wecp.progressive.entity.Customers;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
@@ -19,5 +14,4 @@ public interface CustomerRepository extends JpaRepository<Customers, Integer> {
 
     void deleteByCustomerId(@Param("customerId") int customerId);
     Customers findByNameAndEmail(@Param("name") String name, @Param("email") String email);
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 }

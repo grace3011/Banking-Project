@@ -1,11 +1,6 @@
 package com.wecp.progressive.service;
 
 
-<<<<<<< HEAD
-
-public class AccountServiceImpl  {
-
-=======
 import com.wecp.progressive.dao.AccountDAO;
 import com.wecp.progressive.entity.Accounts;
 
@@ -83,5 +78,4 @@ public class AccountServiceImpl implements AccountService {
         accountsList.add(accounts);
         return accountsList;
     }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 }

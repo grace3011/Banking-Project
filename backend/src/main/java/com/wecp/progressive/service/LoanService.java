@@ -1,32 +1,5 @@
 package com.wecp.progressive.service;
 
-<<<<<<< HEAD
-import com.wecp.progressive.entity.Loan;
-
-import java.util.List;
-
-public class LoanService {
-
-
-    public List<Loan> getAllLoans() {
-        return null;
-    }
-
-    public Loan getLoanById(Long id) {
-        return null;
-    }
-
-    public Loan createLoan(Loan loan) {
-        return null;
-    }
-
-    public void updateLoan(Loan loan) {
-
-    }
-
-    public void deleteLoan(Long id) {
-
-=======
 
 import com.wecp.progressive.entity.Loan;
 import com.wecp.progressive.repository.LoanRepository;
@@ -62,6 +35,5 @@ public class LoanService {
 
     public void deleteLoan(Long id) {
         loanRepository.deleteById(id);
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
     }
 }

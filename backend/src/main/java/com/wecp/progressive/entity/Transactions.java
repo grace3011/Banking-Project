@@ -1,12 +1,4 @@
 package com.wecp.progressive.entity;
-<<<<<<< HEAD
-import java.util.Date;
-
-
-public class Transactions {
-
-
-=======
 import javax.persistence.*;
 import java.util.Date;
 @Entity
@@ -74,5 +66,4 @@ public class Transactions {
     public void setTransactionType(String transactionType) {
         this.transactionType = transactionType;
     }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 }

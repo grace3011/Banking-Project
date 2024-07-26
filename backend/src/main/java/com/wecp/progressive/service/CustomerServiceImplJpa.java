@@ -1,10 +1,5 @@
 package com.wecp.progressive.service;
 
-<<<<<<< HEAD
-public class CustomerServiceImplJpa {
-    
-}
-=======
 
 import com.wecp.progressive.entity.Customers;
 import com.wecp.progressive.exception.CustomerAlreadyExistsException;
@@ -93,4 +88,3 @@ public class CustomerServiceImplJpa implements CustomerService {
         customersList = new ArrayList<>();
     }
 }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f

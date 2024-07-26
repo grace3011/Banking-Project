@@ -2,31 +2,6 @@ package com.wecp.progressive.service;
 
 
 import com.wecp.progressive.entity.CreditCard;
-<<<<<<< HEAD
-
-import java.util.List;
-
-public class CreditCardService {
-
-    public List<CreditCard> getAllCreditCards() {
-        return null;
-    }
-
-    public CreditCard getCreditCardById(Long id) {
-        return null;
-    }
-
-    public CreditCard createCreditCard(CreditCard creditCard) {
-        return null;
-    }
-
-    public void updateCreditCard(CreditCard creditCard) {
-
-    }
-
-    public void deleteCreditCard(Long id) {
-
-=======
 import com.wecp.progressive.repository.CreditCardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -60,6 +35,5 @@ public class CreditCardService {
 
     public void deleteCreditCard(Long id) {
         creditCardRepository.deleteById(id);
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
     }
 }

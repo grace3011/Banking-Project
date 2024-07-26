@@ -1,7 +1,7 @@
 package com.wecp.progressive.dao;
 
 
-public class CustomerDAOImpl {
+
 
 import com.wecp.progressive.config.DatabaseConnectionManager;
 import com.wecp.progressive.dto.CustomerAccountInfo;

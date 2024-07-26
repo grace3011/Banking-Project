@@ -1,39 +1,14 @@
 package com.wecp.progressive.controller;
 
 import com.wecp.progressive.entity.Loan;
-<<<<<<< HEAD
-=======
 import com.wecp.progressive.service.LoanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-<<<<<<< HEAD
-public class LoanController {
-
-    public ResponseEntity<List<Loan>> getAllLoans() {
-        return null;
-    }
-
-    public ResponseEntity<Loan> getLoanById(Long id) {
-        return null;
-    }
-
-    public ResponseEntity<Loan> createLoan(Loan loan) {
-        return null;
-    }
-
-    public ResponseEntity<Void> updateLoan(Long id, Loan loan) {
-        return null;
-    }
-
-    public ResponseEntity<Void> deleteLoan(Long id) {
-        return null;
-=======
 @RestController
 @RequestMapping("/loans")
 public class LoanController {
@@ -87,6 +62,5 @@ public class LoanController {
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
     }
 }

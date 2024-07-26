@@ -1,11 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-
-public class TransactionDAOImpl {
-
-
-=======
 import com.wecp.progressive.config.DatabaseConnectionManager;
 import com.wecp.progressive.entity.Transactions;
 
@@ -166,6 +160,5 @@ public class TransactionDAOImpl implements TransactionDAO{
             }
         }
     }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 
 }

@@ -1,10 +1,6 @@
 package com.wecp.progressive.service;
 
 
-<<<<<<< HEAD
-public class TransactionServiceImpl {
-    
-=======
 import com.wecp.progressive.dao.AccountDAO;
 import com.wecp.progressive.dao.AccountDAOImpl;
 import com.wecp.progressive.dao.TransactionDAO;
@@ -54,5 +50,4 @@ public class TransactionServiceImpl implements TransactionService {
         // TODO Auto-generated method stub
         return null;
     }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 }

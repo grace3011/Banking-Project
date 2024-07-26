@@ -1,19 +1,14 @@
 package com.wecp.progressive.repository;
-
-
-<<<<<<< HEAD
-public interface AccountRepository {
-=======
-import com.wecp.progressive.entity.Accounts;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
+ 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.wecp.progressive.entity.Accounts;
+ 
 @Repository
-public interface AccountRepository extends JpaRepository<Accounts, Integer> {
+public interface AccountRepository extends JpaRepository<Accounts,Integer> {
+    public Accounts getAccountsByUser(Integer customerId);
 
-    List<Accounts> getAccountsByCustomerCustomerId(int customerId);
-    Accounts findByAccountId(int accountId);
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
+    public List<Accounts> getAccountsByCustomerCustomerId(int customerId);
 }

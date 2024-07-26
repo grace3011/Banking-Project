@@ -1,40 +1,4 @@
 package com.wecp.progressive.controller;
-<<<<<<< HEAD
-
-
-import com.wecp.progressive.entity.Customers;
-import com.wecp.progressive.entity.Transactions;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
-public class CustomerController {
-
-    public ResponseEntity<List<Customers>> getAllCustomers() {
-        return null;
-    }
-
-    public ResponseEntity<Customers> getCustomerById(int customerId) {
-        return null;
-    }
-
-    public ResponseEntity<Integer> addCustomer(Customers customers) {
-        return null;
-    }
-
-    public ResponseEntity<Void> updateCustomer(int customerId, Customers customers) {
-        return null;
-    }
-    public ResponseEntity<Void> deleteCustomer(int customerId) {
-        return null;
-    }
-
-    public ResponseEntity<List<Transactions>> getAllTransactionsByCustomerId(int cutomerId) {
-        return null;
-    }
-}
-=======
  
  
 import com.wecp.progressive.entity.Customers;
@@ -132,4 +96,3 @@ public class CustomerController {
         return new ResponseEntity<>(customersList, HttpStatus.OK);
     }
 }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f

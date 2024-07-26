@@ -1,10 +1,6 @@
 package com.wecp.progressive.service;
 
 
-<<<<<<< HEAD
-public class AccountServiceImplJpa {
-    
-=======
 import com.wecp.progressive.entity.Accounts;
 import com.wecp.progressive.exception.AccountNotFoundException;
 import com.wecp.progressive.repository.AccountRepository;
@@ -88,5 +84,4 @@ public class AccountServiceImplJpa implements AccountService{
     public void emptyArrayList() {
 
     }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 }

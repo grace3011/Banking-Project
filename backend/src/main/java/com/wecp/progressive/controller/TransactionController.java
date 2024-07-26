@@ -1,29 +1,5 @@
 package com.wecp.progressive.controller;
 
-<<<<<<< HEAD
-import com.wecp.progressive.entity.Transactions;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
-public class TransactionController {
-
-    public ResponseEntity<List<Transactions>> getAllTransactions() {
-        return null;
-    }
-    public ResponseEntity<Transactions> getTransactionById(int transactionId) {
-        return null;
-    }
-    public ResponseEntity<Integer> addTransaction(Transactions transaction) {
-        return null;
-    }
-    public ResponseEntity<Void> updateTransaction(int transactionId, Transactions transaction) {
-        return null;
-    }
-    public ResponseEntity<Void> deleteTransaction(int transactionId) {
-        return null;
-=======
 import com.wecp.progressive.entity.Accounts;
 import com.wecp.progressive.entity.Transactions;
 import com.wecp.progressive.service.AccountServiceImplJpa;
@@ -115,6 +91,5 @@ public class TransactionController {
         } catch (SQLException e) {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
     }
 }

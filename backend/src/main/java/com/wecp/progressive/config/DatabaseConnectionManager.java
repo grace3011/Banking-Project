@@ -1,10 +1,4 @@
 package com.wecp.progressive.config;
-
-
-public class DatabaseConnectionManager {
-
-}
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,4 +14,4 @@ public class DatabaseConnectionManager {
 }
 
 
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
+

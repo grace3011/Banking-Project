@@ -2,39 +2,14 @@ package com.wecp.progressive.controller;
 
 
 import com.wecp.progressive.entity.CreditCard;
-<<<<<<< HEAD
-=======
 import com.wecp.progressive.service.CreditCardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-<<<<<<< HEAD
-public class CreditCardController {
-
-    public ResponseEntity<List<CreditCard>> getAllCreditCards() {
-        return null;
-    }
-
-    public ResponseEntity<CreditCard> getCreditCardById(Long id) {
-        return null;
-    }
-
-    public ResponseEntity<CreditCard> createCreditCard(CreditCard creditCard) {
-        return null;
-    }
-
-    public ResponseEntity<Void> updateCreditCard(Long id, CreditCard creditCard) {
-        return null;
-    }
-
-    public ResponseEntity<Void> deleteCreditCard(Long id) {
-        return null;
-=======
 @RestController
 @RequestMapping("/credit-cards")
 public class CreditCardController {
@@ -88,6 +63,5 @@ public class CreditCardController {
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
->>>>>>> b59c1594ec22c506fd61e577027a81b044d1a42f
     }
 }
