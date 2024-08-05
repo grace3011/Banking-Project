@@ -48,7 +48,7 @@
   a.task-list:hover {
     text-decoration: underline;
   }
-  
+
    
   .error {
     margin-top: 10px;
@@ -59,6 +59,7 @@
     margin-top: 10px;
     color: #28a745;
   }
+  
   .navbar {
     background-color: #333;
     overflow: hidden;
@@ -87,4 +88,3 @@
     background-color: #ddd;
     color: black;
   }
-  
