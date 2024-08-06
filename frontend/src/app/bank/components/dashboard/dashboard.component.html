@@ -7,7 +7,7 @@
   <table class="customer-table">
     <thead>
       <tr>
-        <th>Customer #</th>
+        <th>Customer Id</th>
         <th>Customer Name</th>
         <th>Email</th>
         <th>Edit</th>
@@ -24,7 +24,7 @@
         <td >  <button class="task-list" (click)="editCustomer(customer)">Edit</button>
         </td>
         <td> <button (click)="deteteCustomer(customer)" >Delete</button>
-        </td>
+        </td>y
       </tr>
     </tbody>
   </table>
@@ -51,7 +51,7 @@
         <td>{{ account.balance }}</td>
         <td *ngIf="role !== 'USER'">  <button class="task-list" (click)="editAccount(account)" >Edit</button>
         </td>
-        <td *ngIf="role !== 'USER'"> <button (click)="deteteAccount(account)" >Delete</button>
+        <td *ngIf="role !== 'USER'"> <button (click)="deteteAccount(account)">Delete</button>
       </tr>
     </tbody>
   </table>
